@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+
+namespace Test2.ViewModels
+{
+    public class ViewModelUser
+    {
+        [Required]
+        public string Name { get; set; }
+        public string Email { get; set; }
+    }
+}
